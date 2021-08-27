@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200;1,400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.limiter{
+    width: 100%;
+    max-width: 1440px;
+}
+
+/*===============HOME==============*/
+section{
+    width: 100%;
+    height: 100%;
+}
+.first{
+    width: 100%;
+    height: 100%;
+    background: hsl(193, 100%, 96%) url(/images/bg-hero-mobile.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.huddle-logo{
+    width: 120px;
+    margin: 25px 0 0 25px;
+}
+.try-it{
+    right: 0;
+    position: relative;
+    margin: 25px 25px 0 0;
+}
+.try-it a{
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+    background: #fff;
+    padding: 5px 20px;
+    border-radius: 20px;
+    box-shadow: 0 2px 8px rgb(3 74 40 / 15%);
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 60px 30px 60px 30px;
+}
+.hero-description{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+.hero-description h1{
+    font-weight: 700;
+    font-size: 2rem;
+}
+.hero-description p{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.get-started{
+    font-weight: 500;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background: hsl(322, 100%, 66%);
+    padding: 15px 70px;
+    border-radius: 30px;
+}
+.hero-img-con{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.hero-img{
+    width: 100%;
+    max-width: 600px;
+    margin: 50px 0 70px 0;
+}
+
+/*============== MAIN ============*/
+main{
+    margin: 30px;
+}
+.limiter2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.card{
+    width: 100%;
+    max-width: 1120px;
+    height: 100%;
+    padding: 50px;
+    box-shadow: 0 2px 20px rgb(3 74 40 / 15%);
+    border-radius: 15px;
+    margin: 5px 0 50px 0;
+}
+.card-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-img{
+    width: 100%;
+    max-width: 350px;
+}
+.card-text{
+    text-align: center;
+}
+.card-text h1{
+    font-weight: 700;
+    margin: 60px 0 20px 0;
+}
+.card-text p{
+    font-weight: 500;
+    color: rgb(116, 116, 116);
+}
+.cta{
+    margin: 30px;
+}
+.cardd{
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+    box-shadow: 0 2px 20px rgb(3 74 40 / 15%);
+    border-radius: 20px;
+}
+
+/*Call to Action card and Button*/
+.micro-card{
+    width: 100%;
+    max-width: 700px;
+    position: relative;
+    top: 150px;
+    z-index: 100;
+}
+.mini-card{
+    height: 100%;
+    padding: 50px;
+    box-shadow: 0 2px 20px rgb(3 74 40 / 15%);
+    border-radius: 20px;
+    margin: 5px 0 50px 0;
+    background: #fff;
+}
+.mini-card-text{
+    text-align: center;
+}
+.mini-card-text h1{
+    font-weight: 800;
+    margin: 10px 0 30px 0;
+}
+.mini-card-text p{
+    font-weight: 500;
+    color: rgb(116, 116, 116);
+}
+.gs2{
+    font-weight: 550;
+    padding: 18px 85px;
+    border-radius: 30px;
+}
+/*============== Footer ==============*/
+footer{
+    background: hsl(192, 100%, 9%);
+    padding: 100px 10px 20px 20px;
+    display: flex;
+    justify-content: center;
+}
+.footer-flex{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.huddle-logo2{
+    margin-bottom: 30px;
+}
+.t{
+    margin-bottom: 20px;
+    display: flex;
+}
+.t i{
+    margin-right: 25px;
+}
+.d_flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 30px 0 0 0;
+}
+.list{
+    margin: 0;
+}
+.list ul li{
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+.list ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.icon{
+    margin-right: 10px;
+}
+.social{
+    text-align: center;
+    margin-top: 25px;
+}
+.social i{
+    margin-right: 20px;
+}
+.footer-info{
+    max-width: 25rem;
+}
+.attribution a{
+    text-align: center;   
+}
+
+.attribution {
+    font-size: 11px; 
+    text-align: center;
+}
+.attribution a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/*============== Media queries ===============*/
+@media screen and (min-width: 900px) {
+    .first{
+        width: 100%;
+        height: 100vh;
+        background: hsl(193, 100%, 96%) url(/images/bg-hero-desktop.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding: 25px;
+    }
+    .try-it{
+        margin: 20px 40px 0 0;
+    }
+    .try-it a:hover{
+        color: rgb(146, 139, 139);
+    }
+    .hero{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .hero-img{
+        width: 100%;
+        max-width: 550px;
+    }
+    .hero-description{
+        text-align: initial;
+        margin-top: 50px;
+        max-width: 350px;
+    }
+    /*Main*/
+    .card{
+        width: 100%;
+        height: 100%;
+        max-width: 1120px;
+        padding: 50px;
+        margin: 5px 0 50px 0;
+    }
+    .card-description{
+        flex-direction: row;
+    }
+    .flip-order{
+        flex-direction: row-reverse;
+    }
+    .card-img{
+        width: 100%;
+        max-width: 350px;
+    }
+    .card-text{
+        width: 100%;
+        max-width: 450px;
+        text-align: initial;
+        margin-left: 50px;
+        margin-bottom: 90px;
+    }
+    .get-started:hover{
+        background: hsl(322, 89%, 75%);
+    }
+}
+@media screen and (min-width: 1124px){
+    .hero-img{
+        margin: 50px 0 100px 0;
+        max-width: 600px;
+    }
+    .first{
+        padding: 20px;
+    }
+
+    .hero{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .hero-description{
+        text-align: initial;
+        margin-top: 50px;
+        max-width: 400px;
+    }
+    /*Main*/
+    .card-img{
+        margin-left: 50px;
+    }
+    .card-text{
+        margin: 0 50px 90px 0px;
+    }
+    
+}
+
+@media screen and (min-width: 1280px){
+    .footer-flex{
+        margin: 50px;
+    }
+    .footer-flex{
+        display: flex;
+        flex-direction: row;
+    }
+    .d_flex{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 5em 20em 0 0;
+    }
+    .list{
+        margin: 0 5rem 0 3rem;
+    }
+    .social{
+        position: absolute;
+        margin: 5em 11em 0 0;
+        right: 0;
+    }
+    .attribution a{
+        position: absolute;
+        right: 0;
+        margin-right: 8em; 
+    }
+}
+
+@media screen and (min-width: 1440px){
+    .first{
+        width: 100%;
+        height: 100%;
+        padding: 35px;
+    }
+}
